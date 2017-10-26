@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SPECIALERACKLABEL" targetNamespace="http://tempuri.org/SPECIALERACKLABEL.xsd" xmlns:mstns="http://tempuri.org/SPECIALERACKLABEL.xsd" xmlns="http://tempuri.org/SPECIALERACKLABEL.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SPECIALERACKLABEL" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="SPECIALERACKLABEL" msprop:Generator_UserDSName="SPECIALERACKLABEL">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SPECIALERACKLABEL" msprop:Generator_TableClassName="SPECIALERACKLABELDataTable" msprop:Generator_TableVarName="tableSPECIALERACKLABEL" msprop:Generator_TablePropName="_SPECIALERACKLABEL" msprop:Generator_RowDeletingName="SPECIALERACKLABELRowDeleting" msprop:Generator_RowChangingName="SPECIALERACKLABELRowChanging" msprop:Generator_RowEvHandlerName="SPECIALERACKLABELRowChangeEventHandler" msprop:Generator_RowDeletedName="SPECIALERACKLABELRowDeleted" msprop:Generator_UserTableName="SPECIALERACKLABEL" msprop:Generator_RowChangedName="SPECIALERACKLABELRowChanged" msprop:Generator_RowEvArgName="SPECIALERACKLABELRowChangeEvent" msprop:Generator_RowClassName="SPECIALERACKLABELRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="srlid" msprop:Generator_ColumnVarNameInTable="columnsrlid" msprop:Generator_ColumnPropNameInRow="srlid" msprop:Generator_ColumnPropNameInTable="srlidColumn" msprop:Generator_UserColumnName="srlid" type="xs:int" minOccurs="0" />
+              <xs:element name="srlsupplier" msprop:Generator_ColumnVarNameInTable="columnsrlsupplier" msprop:Generator_ColumnPropNameInRow="srlsupplier" msprop:Generator_ColumnPropNameInTable="srlsupplierColumn" msprop:Generator_UserColumnName="srlsupplier" type="xs:string" minOccurs="0" />
+              <xs:element name="srlsrload" msprop:Generator_ColumnVarNameInTable="columnsrlsrload" msprop:Generator_ColumnPropNameInRow="srlsrload" msprop:Generator_ColumnPropNameInTable="srlsrloadColumn" msprop:Generator_UserColumnName="srlsrload" type="xs:string" minOccurs="0" />
+              <xs:element name="srlshuttleload" msprop:Generator_ColumnVarNameInTable="columnsrlshuttleload" msprop:Generator_ColumnPropNameInRow="srlshuttleload" msprop:Generator_ColumnPropNameInTable="srlshuttleloadColumn" msprop:Generator_UserColumnName="srlshuttleload" type="xs:string" minOccurs="0" />
+              <xs:element name="srlshuttleload2" msprop:Generator_ColumnVarNameInTable="columnsrlshuttleload2" msprop:Generator_ColumnPropNameInRow="srlshuttleload2" msprop:Generator_ColumnPropNameInTable="srlshuttleload2Column" msprop:Generator_UserColumnName="srlshuttleload2" type="xs:string" minOccurs="0" />
+              <xs:element name="srlkanban" msprop:Generator_ColumnVarNameInTable="columnsrlkanban" msprop:Generator_ColumnPropNameInRow="srlkanban" msprop:Generator_ColumnPropNameInTable="srlkanbanColumn" msprop:Generator_UserColumnName="srlkanban" type="xs:string" minOccurs="0" />
+              <xs:element name="srlwhloc" msprop:Generator_ColumnVarNameInTable="columnsrlwhloc" msprop:Generator_ColumnPropNameInRow="srlwhloc" msprop:Generator_ColumnPropNameInTable="srlwhlocColumn" msprop:Generator_UserColumnName="srlwhloc" type="xs:string" minOccurs="0" />
+              <xs:element name="srlmainroute" msprop:Generator_ColumnVarNameInTable="columnsrlmainroute" msprop:Generator_ColumnPropNameInRow="srlmainroute" msprop:Generator_ColumnPropNameInTable="srlmainrouteColumn" msprop:Generator_UserColumnName="srlmainroute" type="xs:string" minOccurs="0" />
+              <xs:element name="srlsupplierarea" msprop:Generator_ColumnVarNameInTable="columnsrlsupplierarea" msprop:Generator_ColumnPropNameInRow="srlsupplierarea" msprop:Generator_ColumnPropNameInTable="srlsupplierareaColumn" msprop:Generator_UserColumnName="srlsupplierarea" type="xs:string" minOccurs="0" />
+              <xs:element name="bcode" msprop:Generator_ColumnVarNameInTable="columnbcode" msprop:Generator_ColumnPropNameInRow="bcode" msprop:Generator_ColumnPropNameInTable="bcodeColumn" msprop:Generator_UserColumnName="bcode" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="bcode1" msprop:Generator_ColumnVarNameInTable="columnbcode1" msprop:Generator_ColumnPropNameInRow="bcode1" msprop:Generator_ColumnPropNameInTable="bcode1Column" msprop:Generator_UserColumnName="bcode1" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="srlshopcode" msprop:Generator_ColumnVarNameInTable="columnsrlshopcode" msprop:Generator_ColumnPropNameInRow="srlshopcode" msprop:Generator_ColumnPropNameInTable="srlshopcodeColumn" msprop:Generator_UserColumnName="srlshopcode" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

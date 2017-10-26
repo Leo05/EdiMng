@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EDI 856 file</title>
+    <style type="text/css">
+        body {
+            font-family: Arial;
+            font-size: .7em;
+        }
+
+        h2 {
+            font-size: 1.2em !important;
+        }
+
+        .sectionTitle {
+            border: 2px solid Black;
+            border-radius: 3px;
+            background: #0000FF;
+            color: White;
+            padding: 5px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        hr {
+            color: #0000FF;
+        }
+
+        .color {
+            color: #0000FF;
+        }
+
+        .error, .error a {
+            color: red !important;
+        }
+
+        .debug {
+            color: purple !important;
+            display: none;
+            visibility: hidden;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 1em;
+        }
+
+        th {
+            text-align: left;
+        }
+
+        td {
+            vertical-align: top;
+        }
+
+        table.borders {
+            width: 90%;
+        }
+
+            table.borders th {
+                border: 2px solid Black;
+                background: #0000FF;
+                color: White;
+                text-align: left;
+            }
+
+            table.borders td {
+                border: 2px solid Black;
+            }
+
+        table.borders {
+            width: 90%;
+        }
+
+        table.bordersSm th {
+            border: 1px solid #E8E8E8;
+            text-align: left;
+        }
+
+        table.bordersSm td {
+            border: 1px solid #E8E8E8;
+        }
+
+        tr.lineItem td {
+            padding-top: 20px;
+        }
+
+        .tab1 {
+            padding-left: 10px;
+        }
+
+        .tab2 {
+            padding-left: 20px;
+        }
+
+        .title {
+            font-weight: bold;
+        }
+
+        .subInfo {
+            padding: 5px;
+            background: #E8E8E8;
+            margin-left: 20px;
+        }
+
+        a.expander {
+            border: 1px solid black;
+            border-radius: 3px;
+            text-decoration: none;
+            color: black;
+            background: lightgrey;
+            font-size: 10px !important;
+            display: inline-block;
+            width: 13px;
+            height: 13px;
+            text-align: center;
+            margin-top: 3px;
+            margin-bottom: 2px;
+            margin-right: 3px;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+    <script>
+        function clickExpander(id) {
+            var elemButton = document.getElementById(id + "_button");
+
+            var elem = document.getElementById(id);
+
+            if (trimStr(elemButton.innerHTML) == "+") { //show it
+                elem.className = "";
+
+                elemButton.innerHTML = "-";
+            } else {
+                elem.className = "hidden";
+
+                elemButton.innerHTML = "+";
+            }
+        }
+        function trimStr(str) {
+            return str.replace(/^\s+|\s+$/g, "");
+        }
+    </script>
+</head>
+<body>
+    <img src="http://logoimages.sv.softshare.com/tpks/images/subaru.gif" />
+    <br />
+    <span class="debug">On_ST<br /></span>
+    <h3>Ship Notice/Manifest</h3>
+    <div class="sectionTitle">General Information</div>
+    <span class="debug">On_Default<br /></span>
+    <b>Beginning Segment for Ship Notice</b><br />
+    <span class="tab1">Transaction Set Purpose Code: Original</span><br />
+    <span class="tab1">Shipment Identification: 000000SHP110</span><br />
+    <span class="tab1">Date: 20170710</span><br />
+    <span class="tab1">Time: 2336</span><br />
+    <br />
+    <span class="debug">On_First_DTM<br /></span>
+    <b>Date/Time Reference</b><br />
+    <span class="debug">On_DTM<br /></span>
+    <span class="tab1">
+        Shipped:
+        Jul 10 2017

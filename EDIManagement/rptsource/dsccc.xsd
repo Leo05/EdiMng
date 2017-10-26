@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsccc" targetNamespace="http://tempuri.org/dsccc.xsd" xmlns:mstns="http://tempuri.org/dsccc.xsd" xmlns="http://tempuri.org/dsccc.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsccc" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsccc" msprop:Generator_UserDSName="dsccc">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LABELGENDATA" msprop:Generator_TableClassName="LABELGENDATADataTable" msprop:Generator_TableVarName="tableLABELGENDATA" msprop:Generator_RowChangedName="LABELGENDATARowChanged" msprop:Generator_TablePropName="LABELGENDATA" msprop:Generator_RowDeletingName="LABELGENDATARowDeleting" msprop:Generator_RowChangingName="LABELGENDATARowChanging" msprop:Generator_RowEvHandlerName="LABELGENDATARowChangeEventHandler" msprop:Generator_RowDeletedName="LABELGENDATARowDeleted" msprop:Generator_RowClassName="LABELGENDATARow" msprop:Generator_UserTableName="LABELGENDATA" msprop:Generator_RowEvArgName="LABELGENDATARowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="lgdid" msprop:Generator_ColumnVarNameInTable="columnlgdid" msprop:Generator_ColumnPropNameInRow="lgdid" msprop:Generator_ColumnPropNameInTable="lgdidColumn" msprop:Generator_UserColumnName="lgdid" type="xs:int" minOccurs="0" />
+              <xs:element name="lgddateorder" msprop:Generator_ColumnVarNameInTable="columnlgddateorder" msprop:Generator_ColumnPropNameInRow="lgddateorder" msprop:Generator_ColumnPropNameInTable="lgddateorderColumn" msprop:Generator_UserColumnName="lgddateorder" type="xs:string" minOccurs="0" />
+              <xs:element name="lgdsuppliercode" msprop:Generator_ColumnVarNameInTable="columnlgdsuppliercode" msprop:Generator_ColumnPropNameInRow="lgdsuppliercode" msprop:Generator_ColumnPropNameInTable="lgdsuppliercodeColumn" msprop:Generator_UserColumnName="lgdsuppliercode" type="xs:string" minOccurs="0" />
+              <xs:element name="lgdshopcode" msprop:Generator_ColumnVarNameInTable="columnlgdshopcode" msprop:Generator_ColumnPropNameInRow="lgdshopcode" msprop:Generator_ColumnPropNameInTable="lgdshopcodeColumn" msprop:Generator_UserColumnName="lgdshopcode" type="xs:string" minOccurs="0" />
+              <xs:element name="lgdroutesia" msprop:Generator_ColumnVarNameInTable="columnlgdroutesia" msprop:Generator_ColumnPropNameInRow="lgdroutesia" msprop:Generator_ColumnPropNameInTable="lgdroutesiaColumn" msprop:Generator_UserColumnName="lgdroutesia" type="xs:string" minOccurs="0" />
+              <xs:element name="lgdshipdate" msprop:Generator_ColumnVarNameInTable="columnlgdshipdate" msprop:Generator_ColumnPropNameInRow="lgdshipdate" msprop:Generator_ColumnPropNameInTable="lgdshipdateColumn" msprop:Generator_UserColumnName="lgdshipdate" type="xs:string" minOccurs="0" />
+              <xs:element name="lgdlaredosia" msprop:Generator_ColumnVarNameInTable="columnlgdlaredosia" msprop:Generator_ColumnPropNameInRow="lgdlaredosia" msprop:Generator_ColumnPropNameInTable="lgdlaredosiaColumn" msprop:Generator_UserColumnName="lgdlaredosia" type="xs:string" minOccurs="0" />
+              <xs:element name="lgdshipdatetime" msprop:Generator_ColumnVarNameInTable="columnlgdshipdatetime" msprop:Generator_ColumnPropNameInRow="lgdshipdatetime" msprop:Generator_ColumnPropNameInTable="lgdshipdatetimeColumn" msprop:Generator_UserColumnName="lgdshipdatetime" type="xs:string" minOccurs="0" />
+              <xs:element name="lgdroutecrossdock" msprop:Generator_ColumnVarNameInTable="columnlgdroutecrossdock" msprop:Generator_ColumnPropNameInRow="lgdroutecrossdock" msprop:Generator_ColumnPropNameInTable="lgdroutecrossdockColumn" msprop:Generator_UserColumnName="lgdroutecrossdock" type="xs:string" minOccurs="0" />
+              <xs:element name="lgdshipdatetimecrossdock" msprop:Generator_ColumnVarNameInTable="columnlgdshipdatetimecrossdock" msprop:Generator_ColumnPropNameInRow="lgdshipdatetimecrossdock" msprop:Generator_ColumnPropNameInTable="lgdshipdatetimecrossdockColumn" msprop:Generator_UserColumnName="lgdshipdatetimecrossdock" type="xs:string" minOccurs="0" />
+              <xs:element name="lgddeliverycycle" msprop:Generator_ColumnVarNameInTable="columnlgddeliverycycle" msprop:Generator_ColumnPropNameInRow="lgddeliverycycle" msprop:Generator_ColumnPropNameInTable="lgddeliverycycleColumn" msprop:Generator_UserColumnName="lgddeliverycycle" type="xs:string" minOccurs="0" />
+              <xs:element name="lgdconsumptiondatetime" msprop:Generator_ColumnVarNameInTable="columnlgdconsumptiondatetime" msprop:Generator_ColumnPropNameInRow="lgdconsumptiondatetime" msprop:Generator_ColumnPropNameInTable="lgdconsumptiondatetimeColumn" msprop:Generator_UserColumnName="lgdconsumptiondatetime" type="xs:string" minOccurs="0" />
+              <xs:element name="lgdskid" msprop:Generator_ColumnVarNameInTable="columnlgdskid" msprop:Generator_ColumnPropNameInRow="lgdskid" msprop:Generator_ColumnPropNameInTable="lgdskidColumn" msprop:Generator_UserColumnName="lgdskid" type="xs:string" minOccurs="0" />
+              <xs:element name="lgddeliverycode" msprop:Generator_ColumnVarNameInTable="columnlgddeliverycode" msprop:Generator_ColumnPropNameInRow="lgddeliverycode" msprop:Generator_ColumnPropNameInTable="lgddeliverycodeColumn" msprop:Generator_UserColumnName="lgddeliverycode" type="xs:string" minOccurs="0" />
+              <xs:element name="lgdkanban" msprop:Generator_ColumnVarNameInTable="columnlgdkanban" msprop:Generator_ColumnPropNameInRow="lgdkanban" msprop:Generator_ColumnPropNameInTable="lgdkanbanColumn" msprop:Generator_UserColumnName="lgdkanban" type="xs:string" minOccurs="0" />
+              <xs:element name="bcode" msprop:Generator_ColumnVarNameInTable="columnbcode" msprop:Generator_ColumnPropNameInRow="bcode" msprop:Generator_ColumnPropNameInTable="bcodeColumn" msprop:Generator_UserColumnName="bcode" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="partslabel" targetNamespace="http://tempuri.org/partslabel.xsd" xmlns:mstns="http://tempuri.org/partslabel.xsd" xmlns="http://tempuri.org/partslabel.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="partslabel" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="partslabel" msprop:Generator_UserDSName="partslabel">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="partlabel" msprop:Generator_TableClassName="partlabelDataTable" msprop:Generator_TableVarName="tablepartlabel" msprop:Generator_TablePropName="partlabel" msprop:Generator_RowDeletingName="partlabelRowDeleting" msprop:Generator_RowChangingName="partlabelRowChanging" msprop:Generator_RowEvHandlerName="partlabelRowChangeEventHandler" msprop:Generator_RowDeletedName="partlabelRowDeleted" msprop:Generator_UserTableName="partlabel" msprop:Generator_RowChangedName="partlabelRowChanged" msprop:Generator_RowEvArgName="partlabelRowChangeEvent" msprop:Generator_RowClassName="partlabelRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="patrnumbcode" msprop:Generator_ColumnVarNameInTable="columnpatrnumbcode" msprop:Generator_ColumnPropNameInRow="patrnumbcode" msprop:Generator_ColumnPropNameInTable="patrnumbcodeColumn" msprop:Generator_UserColumnName="patrnumbcode" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="dobcode" msprop:Generator_ColumnVarNameInTable="columndobcode" msprop:Generator_ColumnPropNameInRow="dobcode" msprop:Generator_ColumnPropNameInTable="dobcodeColumn" msprop:Generator_UserColumnName="dobcode" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PALLETMASTERLABEL" targetNamespace="http://tempuri.org/PALLETMASTERLABEL.xsd" xmlns:mstns="http://tempuri.org/PALLETMASTERLABEL.xsd" xmlns="http://tempuri.org/PALLETMASTERLABEL.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PALLETMASTERLABEL" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="PALLETMASTERLABEL" msprop:Generator_UserDSName="PALLETMASTERLABEL">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PALLETMASTERLABEL" msprop:Generator_TableClassName="PALLETMASTERLABELDataTable" msprop:Generator_TableVarName="tablePALLETMASTERLABEL" msprop:Generator_TablePropName="_PALLETMASTERLABEL" msprop:Generator_RowDeletingName="PALLETMASTERLABELRowDeleting" msprop:Generator_RowChangingName="PALLETMASTERLABELRowChanging" msprop:Generator_RowEvHandlerName="PALLETMASTERLABELRowChangeEventHandler" msprop:Generator_RowDeletedName="PALLETMASTERLABELRowDeleted" msprop:Generator_UserTableName="PALLETMASTERLABEL" msprop:Generator_RowChangedName="PALLETMASTERLABELRowChanged" msprop:Generator_RowEvArgName="PALLETMASTERLABELRowChangeEvent" msprop:Generator_RowClassName="PALLETMASTERLABELRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pmlid" msprop:Generator_ColumnVarNameInTable="columnpmlid" msprop:Generator_ColumnPropNameInRow="pmlid" msprop:Generator_ColumnPropNameInTable="pmlidColumn" msprop:Generator_UserColumnName="pmlid" type="xs:int" minOccurs="0" />
+              <xs:element name="pmlasnnumber" msprop:Generator_ColumnVarNameInTable="columnpmlasnnumber" msprop:Generator_ColumnPropNameInRow="pmlasnnumber" msprop:Generator_ColumnPropNameInTable="pmlasnnumberColumn" msprop:Generator_UserColumnName="pmlasnnumber" type="xs:string" minOccurs="0" />
+              <xs:element name="pmlsuppliercode" msprop:Generator_ColumnVarNameInTable="columnpmlsuppliercode" msprop:Generator_ColumnPropNameInRow="pmlsuppliercode" msprop:Generator_ColumnPropNameInTable="pmlsuppliercodeColumn" msprop:Generator_UserColumnName="pmlsuppliercode" type="xs:string" minOccurs="0" />
+              <xs:element name="pmlshipdate" msprop:Generator_ColumnVarNameInTable="columnpmlshipdate" msprop:Generator_ColumnPropNameInRow="pmlshipdate" msprop:Generator_ColumnPropNameInTable="pmlshipdateColumn" msprop:Generator_UserColumnName="pmlshipdate" type="xs:string" minOccurs="0" />
+              <xs:element name="pmlroutenumber" msprop:Generator_ColumnVarNameInTable="columnpmlroutenumber" msprop:Generator_ColumnPropNameInRow="pmlroutenumber" msprop:Generator_ColumnPropNameInTable="pmlroutenumberColumn" msprop:Generator_UserColumnName="pmlroutenumber" type="xs:string" minOccurs="0" />
+              <xs:element name="pmldockcode" msprop:Generator_ColumnVarNameInTable="columnpmldockcode" msprop:Generator_ColumnPropNameInRow="pmldockcode" msprop:Generator_ColumnPropNameInTable="pmldockcodeColumn" msprop:Generator_UserColumnName="pmldockcode" type="xs:string" minOccurs="0" />
+              <xs:element name="pmldestination" msprop:Generator_ColumnVarNameInTable="columnpmldestination" msprop:Generator_ColumnPropNameInRow="pmldestination" msprop:Generator_ColumnPropNameInTable="pmldestinationColumn" msprop:Generator_UserColumnName="pmldestination" type="xs:string" minOccurs="0" />
+              <xs:element name="pmldeliveryorder" msprop:Generator_ColumnVarNameInTable="columnpmldeliveryorder" msprop:Generator_ColumnPropNameInRow="pmldeliveryorder" msprop:Generator_ColumnPropNameInTable="pmldeliveryorderColumn" msprop:Generator_UserColumnName="pmldeliveryorder" type="xs:string" minOccurs="0" />
+              <xs:element name="pmlpartnumber" msprop:Generator_ColumnVarNameInTable="columnpmlpartnumber" msprop:Generator_ColumnPropNameInRow="pmlpartnumber" msprop:Generator_ColumnPropNameInTable="pmlpartnumberColumn" msprop:Generator_UserColumnName="pmlpartnumber" type="xs:string" minOccurs="0" />
+              <xs:element name="pmlkanban" msprop:Generator_ColumnVarNameInTable="columnpmlkanban" msprop:Generator_ColumnPropNameInRow="pmlkanban" msprop:Generator_ColumnPropNameInTable="pmlkanbanColumn" msprop:Generator_UserColumnName="pmlkanban" type="xs:string" minOccurs="0" />
+              <xs:element name="pmlquantity" msprop:Generator_ColumnVarNameInTable="columnpmlquantity" msprop:Generator_ColumnPropNameInRow="pmlquantity" msprop:Generator_ColumnPropNameInTable="pmlquantityColumn" msprop:Generator_UserColumnName="pmlquantity" type="xs:string" minOccurs="0" />
+              <xs:element name="pmltotalpalletsfrom" msprop:Generator_ColumnVarNameInTable="columnpmltotalpalletsfrom" msprop:Generator_ColumnPropNameInRow="pmltotalpalletsfrom" msprop:Generator_ColumnPropNameInTable="pmltotalpalletsfromColumn" msprop:Generator_UserColumnName="pmltotalpalletsfrom" type="xs:string" minOccurs="0" />
+              <xs:element name="pmltotalpalletsto" msprop:Generator_ColumnVarNameInTable="columnpmltotalpalletsto" msprop:Generator_ColumnPropNameInRow="pmltotalpalletsto" msprop:Generator_ColumnPropNameInTable="pmltotalpalletstoColumn" msprop:Generator_UserColumnName="pmltotalpalletsto" type="xs:string" minOccurs="0" />
+              <xs:element name="pmlcreateddate" msprop:Generator_ColumnVarNameInTable="columnpmlcreateddate" msprop:Generator_ColumnPropNameInRow="pmlcreateddate" msprop:Generator_ColumnPropNameInTable="pmlcreateddateColumn" msprop:Generator_UserColumnName="pmlcreateddate" type="xs:string" minOccurs="0" />
+              <xs:element name="bcode" msprop:Generator_ColumnVarNameInTable="columnbcode" msprop:Generator_ColumnPropNameInRow="bcode" msprop:Generator_ColumnPropNameInTable="bcodeColumn" msprop:Generator_UserColumnName="bcode" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="qrcode" msprop:Generator_ColumnVarNameInTable="columnqrcode" msprop:Generator_ColumnPropNameInRow="qrcode" msprop:Generator_ColumnPropNameInTable="qrcodeColumn" msprop:Generator_UserColumnName="qrcode" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,2023 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\transfer\EDIManagement</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="856edi.html">
+      <publishTime>07/10/2017 22:56:58</publishTime>
+    </File>
+    <File Include="app/css/login.css">
+      <publishTime>07/07/2017 14:33:16</publishTime>
+    </File>
+    <File Include="app/js/core.js">
+      <publishTime>07/07/2017 22:26:50</publishTime>
+    </File>
+    <File Include="app/js/frmnewfile.js">
+      <publishTime>07/10/2017 23:36:19</publishTime>
+    </File>
+    <File Include="app/js/index.js">
+      <publishTime>07/07/2017 22:31:28</publishTime>
+    </File>
+    <File Include="app/js/labelpml.js">
+      <publishTime>07/07/2017 22:49:50</publishTime>
+    </File>
+    <File Include="app/js/labelpp.js">
+      <publishTime>07/07/2017 23:18:00</publishTime>
+    </File>
+    <File Include="app/js/labelsm.js">
+      <publishTime>07/07/2017 22:37:35</publishTime>
+    </File>
+    <File Include="app/js/labelsrsm.js">
+      <publishTime>07/07/2017 22:48:04</publishTime>
+    </File>
+    <File Include="app/js/login.js">
+      <publishTime>07/07/2017 22:18:54</publishTime>
+    </File>
+    <File Include="assets/css/fonts/fontawesome-webfont.eot">
+      <publishTime>07/07/2017 14:32:14</publishTime>
+    </File>
+    <File Include="assets/css/fonts/fontawesome-webfont.svg">
+      <publishTime>07/07/2017 14:32:14</publishTime>
+    </File>
+    <File Include="assets/css/fonts/fontawesome-webfont.ttf">
+      <publishTime>07/07/2017 14:32:14</publishTime>
+    </File>
+    <File Include="assets/css/fonts/fontawesome-webfont.woff">
+      <publishTime>07/07/2017 14:32:14</publishTime>
+    </File>
+    <File Include="assets/css/fonts/fontawesome-webfont.woff2">
+      <publishTime>07/07/2017 14:32:14</publishTime>
+    </File>
+    <File Include="assets/css/fonts/FontAwesome.otf">
+      <publishTime>07/07/2017 14:32:14</publishTime>
+    </File>
+    <File Include="assets/css/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/07/2017 14:32:14</publishTime>
+    </File>
+    <File Include="assets/css/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/07/2017 14:32:14</publishTime>
+    </File>
+    <File Include="assets/css/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/07/2017 14:32:14</publishTime>
+    </File>
+    <File Include="assets/css/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/07/2017 14:32:14</publishTime>
+    </File>
+    <File Include="assets/css/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>07/07/2017 14:32:14</publishTime>
+    </File>
+    <File Include="assets/css/fonts/LICENSE.txt">
+      <publishTime>07/07/2017 14:32:14</publishTime>
+    </File>
+    <File Include="assets/css/fonts/Material-Design-Iconic-Font.eot">
+      <publishTime>07/07/2017 14:32:14</publishTime>
+    </File>
+    <File Include="assets/css/fonts/Material-Design-Iconic-Font.svg">
+      <publishTime>07/07/2017 14:32:14</publishTime>
+    </File>
+    <File Include="assets/css/fonts/Material-Design-Iconic-Font.ttf">
+      <publishTime>07/07/2017 14:32:14</publishTime>
+    </File>
+    <File Include="assets/css/fonts/Material-Design-Iconic-Font.woff">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/loaderbutton.css">
+      <publishTime>07/07/2017 14:32:14</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/bootstrap-theme.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/bootstrap-theme.css.map">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/bootstrap-theme.min.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/bootstrap-theme.min.css.map">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/bootstrap.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/bootstrap.css.map">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/bootstrap.min.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/bootstrap.min.css.map">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/font-awesome-LICENSE">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/font-awesome.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/font-awesome.min.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/blueimp-file-upload/jquery.fileupload.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/bootstrap-colorpicker/bootstrap-colorpicker.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/bootstrap-colorpicker/img/alpha.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/bootstrap-colorpicker/img/hue.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/bootstrap-colorpicker/img/saturation.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/bootstrap-colorpicker/img/Thumbs.db">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/bootstrap-datepicker/datepicker3.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/bootstrap-multiselect/bootstrap-multiselect.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/bootstrap-tagsinput/bootstrap-tagsinput.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/DataTables/extensions/dataTables.colVis.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/DataTables/extensions/dataTables.tableTools.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/DataTables/img/back_disabled.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/DataTables/img/back_enabled.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/DataTables/img/back_enabled_hover.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/DataTables/img/forward_disabled.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/DataTables/img/forward_enabled.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/DataTables/img/forward_enabled_hover.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/DataTables/img/sort_asc.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/DataTables/img/sort_asc_disabled.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/DataTables/img/sort_both.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/DataTables/img/sort_desc.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/DataTables/img/sort_desc_disabled.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/DataTables/jquery.dataTables.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/DataTables/TableTools.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/dropzone/basic.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/dropzone/dropzone-theme.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/dropzone/dropzone.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/dropzone/material.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/dropzone/spritemap%402x.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/dropzone/spritemap.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/fullcalendar/fullcalendar.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/jquery-ui/images/animated-overlay.gif">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/jquery-ui/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/jquery-ui/images/ui-bg_flat_0_ed0000_40x100.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/jquery-ui/images/ui-bg_flat_100_cecece_40x100.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/jquery-ui/images/ui-bg_flat_100_ffffff_40x100.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/jquery-ui/images/ui-bg_flat_55_adb5e8_40x100.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/jquery-ui/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/jquery-ui/images/ui-icons_222222_256x240.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/jquery-ui/images/ui-icons_24ee24_256x240.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/jquery-ui/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/jquery-ui/images/ui-icons_454545_256x240.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/jquery-ui/images/ui-icons_888888_256x240.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/jquery-ui/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/jquery-ui/jquery-ui-planar.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/jquery-ui/jquery-ui-theme.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/morris/morris.core.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/multi-select/multi-select.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/multi-select/switch.png">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/nestable/nestable.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/rickshaw/rickshaw.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/select2/select2-spinner.gif">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/select2/select2.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/summernote/summernote.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/toastr/toastr.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/typeahead/typeahead.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/libs/wizard/wizard.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/material-design-iconic-font.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/material-design-iconic-font.min.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/material-design-LICENSE.md">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/materialadmin.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/materialadmin_demo.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/css/theme-default/materialadmin_print.css">
+      <publishTime>07/07/2017 14:32:15</publishTime>
+    </File>
+    <File Include="assets/img/photo.jpg">
+      <publishTime>07/07/2017 14:34:10</publishTime>
+    </File>
+    <File Include="assets/libs/bootbox/bootbox.min.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/bootstrap/css/bootstrap-theme.css">
+      <publishTime>07/07/2017 14:31:23</publishTime>
+    </File>
+    <File Include="assets/libs/bootstrap/css/bootstrap-theme.css.map">
+      <publishTime>07/07/2017 14:31:23</publishTime>
+    </File>
+    <File Include="assets/libs/bootstrap/css/bootstrap-theme.min.css">
+      <publishTime>07/07/2017 14:31:23</publishTime>
+    </File>
+    <File Include="assets/libs/bootstrap/css/bootstrap-theme.min.css.map">
+      <publishTime>07/07/2017 14:31:23</publishTime>
+    </File>
+    <File Include="assets/libs/bootstrap/css/bootstrap.css">
+      <publishTime>07/07/2017 14:31:23</publishTime>
+    </File>
+    <File Include="assets/libs/bootstrap/css/bootstrap.css.map">
+      <publishTime>07/07/2017 14:31:23</publishTime>
+    </File>
+    <File Include="assets/libs/bootstrap/css/bootstrap.min.css">
+      <publishTime>07/07/2017 14:31:23</publishTime>
+    </File>
+    <File Include="assets/libs/bootstrap/css/bootstrap.min.css.map">
+      <publishTime>07/07/2017 14:31:23</publishTime>
+    </File>
+    <File Include="assets/libs/bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/07/2017 14:31:23</publishTime>
+    </File>
+    <File Include="assets/libs/bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/07/2017 14:31:23</publishTime>
+    </File>
+    <File Include="assets/libs/bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/07/2017 14:31:23</publishTime>
+    </File>
+    <File Include="assets/libs/bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/07/2017 14:31:23</publishTime>
+    </File>
+    <File Include="assets/libs/bootstrap/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>07/07/2017 14:31:23</publishTime>
+    </File>
+    <File Include="assets/libs/bootstrap/js/bootstrap.js">
+      <publishTime>07/07/2017 14:31:23</publishTime>
+    </File>
+    <File Include="assets/libs/bootstrap/js/bootstrap.min.js">
+      <publishTime>07/07/2017 14:31:23</publishTime>
+    </File>
+    <File Include="assets/libs/bootstrap/js/npm.js">
+      <publishTime>07/07/2017 14:31:23</publishTime>
+    </File>
+    <File Include="assets/libs/fastclick/fastclick.js">
+      <publishTime>07/07/2017 15:00:36</publishTime>
+    </File>
+    <File Include="assets/libs/fastclick/fastclick.min.js">
+      <publishTime>07/07/2017 15:00:36</publishTime>
+    </File>
+    <File Include="assets/libs/jcookie/bower.json">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jcookie/component.json">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jcookie/cookie.jquery.json">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jcookie/Gruntfile.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jcookie/jquery.cookie.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jcookie/package.json">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jQuery/jquery-2.2.3.min.js">
+      <publishTime>07/07/2017 14:58:28</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/globalization/globalize.culture.cs-CZ.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/globalization/globalize.culture.de-DE.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/globalization/globalize.culture.en-CA.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/globalization/globalize.culture.en-US.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/globalization/globalize.culture.fr-FR.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/globalization/globalize.culture.he-IL.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/globalization/globalize.culture.hr-HR.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/globalization/globalize.culture.hu-HU.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/globalization/globalize.culture.it-IT.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/globalization/globalize.culture.ja-JP.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/globalization/globalize.culture.lt.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/globalization/globalize.culture.ru-RU.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/globalization/globalize.culture.sa-IN.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/globalization/globalize.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/globalization/ReadMe.txt">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqx-all.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxAlert.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxangular.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxbargauge.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxbulletchart.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxbuttongroup.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxbuttons.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxcalendar.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxchart.annotations.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxchart.api.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxchart.core.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxchart.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxchart.rangeselector.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxchart.waterfall.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxcheckbox.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxcolorpicker.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxcombobox.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxcomplexinput.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxcore.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxdata.export.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxdata.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxdata.js.old">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxdatatable.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxdate.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxdatetimeinput.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxdocking.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxdockinglayout.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxdockpanel.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxdragdrop.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxdraw.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxdropdownbutton.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxdropdownlist.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxeditor.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxexpander.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxfileupload.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxformattedinput.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxgauge.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxgrid.aggregates.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxgrid.columnsreorder.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxgrid.columnsresize.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxgrid.edit.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxgrid.export.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxgrid.filter.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxgrid.grouping.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxgrid.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxgrid.pager.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxgrid.selection.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxgrid.sort.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxgrid.storage.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxinput.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxkanban.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxknob.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxknockout.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxlayout.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxlistbox.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxlistmenu.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxloader.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxmaskedinput.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxmenu.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxnavbar.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxnavigationbar.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxnotification.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxnumberinput.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxpanel.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxpasswordinput.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxpopover.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxprogressbar.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxradiobutton.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxrangeselector.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxrating.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxresponse.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxresponsivepanel.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxribbon.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxscheduler.api.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxscheduler.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxscrollbar.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxscrollview.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxslider.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxsortable.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxsplitter.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxswitchbutton.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxtabs.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxtagcloud.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxtextarea.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxtoolbar.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxtooltip.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxtouch.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxtree.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxtreegrid.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxtreemap.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxvalidator.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/jqxwindow.js">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/backgroundTop.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/backImage.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/bg_black.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/bg_blackhover.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/bg_blackhover_horizontal.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/bg_blackpressed.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/bg_blackpressed_horizontal.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/bg_black_horizontal.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/bg_blueenergy.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/bg_darkblue.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/bg_darkbluehover.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/bg_darkbluepressed.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/blackbackground.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/black_gradient.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/check_black.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/check_blue.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/check_blue_indeterminate.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/check_disabled.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/check_indeterminate_black.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/check_indeterminate_disabled.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/check_indeterminate_white.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/check_lightblue.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/check_lightblue_indeterminate.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/check_white.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/close.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/close_black.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/close_blue.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/close_white.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/colorpicker/bar-hue.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/colorpicker/bar-saturation.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/colorpicker/map-hue.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/colorpicker/map-saturation-overlay.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/colorpicker/map-saturation.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/colorpicker/ReadMe.txt">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/common.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/crosshair-white.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/crosshair.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/darkness/ReadMe.txt">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/darkness/ui-bg_flat_30_cccccc_40x100.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/darkness/ui-bg_flat_50_5c5c5c_40x100.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/darkness/ui-bg_glass_20_555555_1x400.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/darkness/ui-bg_glass_40_0078a3_1x400.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/darkness/ui-bg_glass_40_ffc73d_1x400.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/darkness/ui-bg_gloss-wave_25_333333_500x100.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/darkness/ui-bg_highlight-soft_80_eeeeee_1x100.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/darkness/ui-bg_inset-soft_25_000000_1x100.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/darkness/ui-bg_inset-soft_30_f58400_1x100.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/darkness/ui-icons_222222_256x240.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/darkness/ui-icons_4b8e0b_256x240.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/darkness/ui-icons_a83300_256x240.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/darkness/ui-icons_cccccc_256x240.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/darkness/ui-icons_ffffff_256x240.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/darkred_gradient.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/drag.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/dragcancel.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/error.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/filter.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/html_editor.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/html_editor_white.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-calendar-white.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-calendar.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-cancel-white.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-cancel.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-delete-white.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-delete.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-down-blue.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-down-transparent.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-down-white.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-down.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-edit-white.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-edit.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-first-blue.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-first-transparent.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-first-white.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-first.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-last-blue.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-last-transparent.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-last-white.png">
+      <publishTime>07/07/2017 14:31:49</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-last.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-left-blue.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-left-transparent.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-left-white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-left.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-menu-minimized-white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-menu-minimized.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-plus-white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-plus.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-recurrence-exception-white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-recurrence-exception.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-recurrence-white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-recurrence.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-right-blue.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-right-transparent.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-right-white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-right.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-save-white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-save.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-showpassword-white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-showpassword.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-time-white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-time.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-up-blue.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-up-transparent.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-up-white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/icon-up.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/info.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/le-frog/ReadMe.txt">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/le-frog/ui-bg_diagonals-small_0_aaaaaa_40x40.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/le-frog/ui-bg_diagonals-thick_15_444444_40x40.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/le-frog/ui-bg_diagonals-thick_95_ffdc2e_40x40.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/le-frog/ui-bg_glass_55_fbf5d0_1x400.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/le-frog/ui-bg_highlight-hard_30_285c00_1x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/le-frog/ui-bg_highlight-soft_33_3a8104_1x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/le-frog/ui-bg_highlight-soft_50_4eb305_1x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/le-frog/ui-bg_highlight-soft_60_4ca20b_1x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/le-frog/ui-bg_inset-soft_10_285c00_1x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/le-frog/ui-icons_4eb305_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/le-frog/ui-icons_72b42d_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/le-frog/ui-icons_cd0a0a_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/le-frog/ui-icons_ffffff_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/lightness/icon-first.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/lightness/icon-last.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/lightness/ReadMe.txt">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/lightness/ui-bg_diagonals-thick_18_b81900_40x40.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/lightness/ui-bg_diagonals-thick_20_666666_40x40.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/lightness/ui-bg_flat_10_000000_40x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/lightness/ui-bg_glass_100_f6f6f6_1x400.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/lightness/ui-bg_glass_100_fdf5ce_1x400.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/lightness/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/lightness/ui-bg_gloss-wave_35_f6a828_500x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/lightness/ui-bg_highlight-soft_100_eeeeee_1x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/lightness/ui-bg_highlight-soft_75_ffe45c_1x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/lightness/ui-icons_222222_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/lightness/ui-icons_228ef1_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/lightness/ui-icons_ef8c08_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/lightness/ui-icons_ffd27a_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/lightness/ui-icons_ffffff_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/loader-small.gif">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/loader.gif">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/mail.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/menubutton.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/metro-icon-down-white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/metro-icon-down.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/metro-icon-first-white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/metro-icon-first.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/metro-icon-last-white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/metro-icon-last.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/metro-icon-left-white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/metro-icon-left.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/metro-icon-right - Copy.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/metro-icon-right-white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/metro-icon-right.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/metro-icon-up-white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/metro-icon-up.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/multi-arrow.gif">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/office-icon-down.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/office-icon-first.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/office-icon-last.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/office-icon-left.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/office-icon-right.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/office-icon-up.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/overcast/ReadMe.txt">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/overcast/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/overcast/ui-bg_flat_0_eeeeee_40x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/overcast/ui-bg_flat_55_c0402a_40x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/overcast/ui-bg_flat_55_eeeeee_40x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/overcast/ui-bg_glass_100_f8f8f8_1x400.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/overcast/ui-bg_glass_35_dddddd_1x400.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/overcast/ui-bg_glass_60_eeeeee_1x400.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/overcast/ui-bg_inset-hard_75_999999_1x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/overcast/ui-bg_inset-soft_50_c9c9c9_1x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/overcast/ui-icons_3383bb_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/overcast/ui-icons_454545_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/overcast/ui-icons_70b2e1_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/overcast/ui-icons_999999_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/overcast/ui-icons_fbc856_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/pin-black.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/pin-blue.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/pin-lightblue.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/pin-white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/pin-yellow.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/pin.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/pinned-black.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/pinned-blue.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/pinned-lightblue.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/pinned-white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/pinned-yellow.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/pinned.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/plus.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/plus_white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/pointer.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/rangebar_classic.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/rangebar_darkblue.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/rangebar_shinyblack.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/rangebar_summer.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/redmond/icon-first.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/redmond/icon-last.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/redmond/ReadMe.txt">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/redmond/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/redmond/ui-bg_flat_55_fbec88_40x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/redmond/ui-bg_glass_75_d0e5f5_1x400.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/redmond/ui-bg_glass_85_dfeffc_1x400.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/redmond/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/redmond/ui-bg_gloss-wave_55_5c9ccc_500x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/redmond/ui-bg_inset-hard_100_f5f8f9_1x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/redmond/ui-bg_inset-hard_100_fcfdfd_1x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/redmond/ui-icons_217bc0_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/redmond/ui-icons_2e83ff_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/redmond/ui-icons_469bdd_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/redmond/ui-icons_6da8d5_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/redmond/ui-icons_cd0a0a_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/redmond/ui-icons_d8e7f3_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/redmond/ui-icons_f9bd01_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/red_arrow_down.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/red_arrow_up.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/red_gradient.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/roundbg_check_black.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/roundbg_check_disabled.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/roundbg_check_indeterminate.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/roundbg_check_white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/roundbg_classic_hover.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/roundbg_classic_normal.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/roundbg_disabled.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/search.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/search_white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/smoothness/ReadMe.txt">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/smoothness/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/smoothness/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/smoothness/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/smoothness/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/smoothness/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/smoothness/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/smoothness/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/smoothness/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/smoothness/ui-icons_222222_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/smoothness/ui-icons_2e83ff_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/smoothness/ui-icons_454545_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/smoothness/ui-icons_888888_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/smoothness/ui-icons_cd0a0a_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sortasc.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sortascbutton.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sortdesc.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sortdescbutton.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sortremove.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/star.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/start/ReadMe.txt">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/start/ui-bg_flat_55_999999_40x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/start/ui-bg_flat_75_aaaaaa_40x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/start/ui-bg_glass_45_0078ae_1x400.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/start/ui-bg_glass_55_f8da4e_1x400.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/start/ui-bg_glass_75_79c9ec_1x400.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/start/ui-bg_gloss-wave_45_e14f1c_500x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/start/ui-bg_gloss-wave_50_6eac2c_500x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/start/ui-bg_gloss-wave_75_2191c0_500x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/start/ui-bg_inset-hard_100_fcfdfd_1x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/start/ui-icons_0078ae_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/start/ui-icons_056b93_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/start/ui-icons_d8e7f3_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/start/ui-icons_e0fdff_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/start/ui-icons_f5e175_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/start/ui-icons_f7a50d_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/start/ui-icons_fcd113_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/star_disabled.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/star_hover.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/stripes.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/success.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sunny/ReadMe.txt">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sunny/ui-bg_diagonals-medium_20_d34d17_40x40.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sunny/ui-bg_flat_30_cccccc_40x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sunny/ui-bg_flat_50_5c5c5c_40x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sunny/ui-bg_gloss-wave_45_817865_500x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sunny/ui-bg_gloss-wave_60_fece2f_500x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sunny/ui-bg_gloss-wave_70_ffdd57_500x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sunny/ui-bg_gloss-wave_90_fff9e5_500x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sunny/ui-bg_highlight-soft_100_feeebd_1x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sunny/ui-bg_inset-soft_30_ffffff_1x100.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sunny/ui-icons_3d3d3d_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sunny/ui-icons_bd7b00_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sunny/ui-icons_d19405_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sunny/ui-icons_eb990f_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sunny/ui-icons_ed9f26_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sunny/ui-icons_fadc7a_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/sunny/ui-icons_ffe180_256x240.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/tick.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/time.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/track_classic.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/track_darkblue.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/track_shinyblack.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/track_summer.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/warning.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/wp_check_indeterminate_white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/images/wp_check_white.png">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.android.css">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.arctic.css">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.base.css">
+      <publishTime>07/07/2017 14:31:50</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.black.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.blackberry.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.bootstrap.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.classic.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.dark.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.darkblue.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.energyblue.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.fresh.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.glacier.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.highcontrast.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.light.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.metro.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.metrodark.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.mobile.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.office.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.orange.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.shinyblack.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.summer.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.ui-darkness.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.ui-le-frog.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.ui-lightness.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.ui-overcast.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.ui-redmond.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.ui-smoothness.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.ui-start.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.ui-sunny.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.web.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/jqwidgets/styles/jqx.windowsphone.css">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/slimScroll/jquery.slimscroll.js">
+      <publishTime>07/07/2017 15:00:36</publishTime>
+    </File>
+    <File Include="assets/libs/slimScroll/jquery.slimscroll.min.js">
+      <publishTime>07/07/2017 15:00:36</publishTime>
+    </File>
+    <File Include="assets/libs/source/App.js">
+      <publishTime>07/07/2017 14:31:51</publishTime>
+    </File>
+    <File Include="assets/libs/toastr/LICENSE">
+      <publishTime>07/07/2017 14:31:47</publishTime>
+    </File>
+    <File Include="assets/libs/toastr/toastr.css">
+      <publishTime>07/07/2017 16:43:35</publishTime>
+    </File>
+    <File Include="assets/libs/toastr/toastr.js">
+      <publishTime>07/07/2017 14:31:48</publishTime>
+    </File>
+    <File Include="bin/BarcodeLib.dll">
+      <publishTime>03/11/2014 14:32:52</publishTime>
+    </File>
+    <File Include="bin/EDIManagement.dll">
+      <publishTime>07/11/2017 00:14:04</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/02/2013 12:10:10</publishTime>
+    </File>
+    <File Include="bin/_PDF417BCode.dll">
+      <publishTime>05/17/2017 12:18:55</publishTime>
+    </File>
+    <File Include="dbscripts/CORELABELS_SPI_PALLETMASTERLABEL.sql">
+      <publishTime>07/07/2017 18:20:34</publishTime>
+    </File>
+    <File Include="dbscripts/CORELABELS_SPI_PRODUCTIONPARTLABEL.sql">
+      <publishTime>07/07/2017 18:20:34</publishTime>
+    </File>
+    <File Include="dbscripts/CORELABELS_SPI_SPECIALRACKLABEL.sql">
+      <publishTime>07/07/2017 18:20:34</publishTime>
+    </File>
+    <File Include="dbscripts/CORELABELS_SPR_GENDATA.sql">
+      <publishTime>07/07/2017 18:20:34</publishTime>
+    </File>
+    <File Include="dbscripts/CORELABELS_SPR_PALLETMASTERLABEL.sql">
+      <publishTime>07/07/2017 18:20:34</publishTime>
+    </File>
+    <File Include="dbscripts/CORELABELS_SPR_PRODUCTIONPARTLABEL.sql">
+      <publishTime>07/07/2017 18:20:34</publishTime>
+    </File>
+    <File Include="dbscripts/CORELABELS_SPR_SPECIALRACKLABEL.sql">
+      <publishTime>07/07/2017 18:20:34</publishTime>
+    </File>
+    <File Include="dbscripts/CORELABELS_SPS_GEN856FILE.sql">
+      <publishTime>07/07/2017 18:20:34</publishTime>
+    </File>
+    <File Include="dbscripts/PALLETMASTERLABEL.sql">
+      <publishTime>07/07/2017 18:20:34</publishTime>
+    </File>
+    <File Include="dbscripts/PRODUCTIONPARTLABEL.sql">
+      <publishTime>07/07/2017 18:20:34</publishTime>
+    </File>
+    <File Include="dbscripts/SPECIALERACKLABEL.sql">
+      <publishTime>07/07/2017 18:20:34</publishTime>
+    </File>
+    <File Include="dbscripts/[CORELABELS_SPI_GENDATA].sql">
+      <publishTime>07/07/2017 18:20:34</publishTime>
+    </File>
+    <File Include="dist/css/AdminLTE.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/AdminLTE.min.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/alt/AdminLTE-bootstrap-social.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/alt/AdminLTE-bootstrap-social.min.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/alt/AdminLTE-fullcalendar.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/alt/AdminLTE-fullcalendar.min.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/alt/AdminLTE-select2.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/alt/AdminLTE-select2.min.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/alt/AdminLTE-without-plugins.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/alt/AdminLTE-without-plugins.min.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-black-light.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-black-light.min.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-black.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-black.min.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-blue-light.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-blue-light.min.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-blue.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-blue.min.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-green-light.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-green-light.min.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-green.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-green.min.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-purple-light.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-purple-light.min.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-purple.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-purple.min.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-red-light.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-red-light.min.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-red.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-red.min.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-yellow-light.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-yellow-light.min.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-yellow.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/skin-yellow.min.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/_all-skins.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/css/skins/_all-skins.min.css">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/avatar.png">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/avatar2.png">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/avatar3.png">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/avatar5.png">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/boxed-bg.jpg">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/boxed-bg.png">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/credit/american-express.png">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/credit/cirrus.png">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/credit/mastercard.png">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/credit/mestro.png">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/credit/paypal.png">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/credit/paypal2.png">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/credit/visa.png">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/default-50x50.gif">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/icons.png">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/photo1.png">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/photo2.png">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/photo3.jpg">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/photo4.jpg">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/user1-128x128.jpg">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/user2-160x160.jpg">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/user3-128x128.jpg">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/user4-128x128.jpg">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/user5-128x128.jpg">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/user6-128x128.jpg">
+      <publishTime>07/07/2017 14:53:48</publishTime>
+    </File>
+    <File Include="dist/img/user7-128x128.jpg">
+      <publishTime>07/07/2017 14:53:49</publishTime>
+    </File>
+    <File Include="dist/img/user8-128x128.jpg">
+      <publishTime>07/07/2017 14:53:49</publishTime>
+    </File>
+    <File Include="dist/js/app.js">
+      <publishTime>07/07/2017 14:53:49</publishTime>
+    </File>
+    <File Include="dist/js/app.min.js">
+      <publishTime>07/07/2017 14:53:49</publishTime>
+    </File>
+    <File Include="dist/js/demo.js">
+      <publishTime>07/07/2017 14:53:49</publishTime>
+    </File>
+    <File Include="dist/js/pages/dashboard.js">
+      <publishTime>07/07/2017 14:53:49</publishTime>
+    </File>
+    <File Include="dist/js/pages/dashboard2.js">
+      <publishTime>07/07/2017 14:53:49</publishTime>
+    </File>
+    <File Include="frmnewfile.aspx">
+      <publishTime>07/10/2017 22:37:24</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/03/2017 20:46:45</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>07/07/2017 23:02:54</publishTime>
+    </File>
+    <File Include="labelpml.aspx">
+      <publishTime>07/07/2017 23:03:32</publishTime>
+    </File>
+    <File Include="labelpp.aspx">
+      <publishTime>07/07/2017 23:03:41</publishTime>
+    </File>
+    <File Include="labelsm.aspx">
+      <publishTime>07/07/2017 23:03:15</publishTime>
+    </File>
+    <File Include="labelsrsm.aspx">
+      <publishTime>07/07/2017 23:03:44</publishTime>
+    </File>
+    <File Include="login.aspx">
+      <publishTime>07/07/2017 22:27:55</publishTime>
+    </File>
+    <File Include="rptsource/dsccc.xsc">
+      <publishTime>07/07/2017 17:24:02</publishTime>
+    </File>
+    <File Include="rptsource/dsccc.xss">
+      <publishTime>07/07/2017 17:24:02</publishTime>
+    </File>
+    <File Include="rptsource/PALLETMASTERLABEL.xsc">
+      <publishTime>07/07/2017 17:24:02</publishTime>
+    </File>
+    <File Include="rptsource/PALLETMASTERLABEL.xss">
+      <publishTime>07/07/2017 17:24:02</publishTime>
+    </File>
+    <File Include="rptsource/partslabel.xsc">
+      <publishTime>07/07/2017 17:24:02</publishTime>
+    </File>
+    <File Include="rptsource/partslabel.xss">
+      <publishTime>07/07/2017 17:24:02</publishTime>
+    </File>
+    <File Include="rptsource/PRODUCTIONPARTLABEL.xsc">
+      <publishTime>07/07/2017 17:24:02</publishTime>
+    </File>
+    <File Include="rptsource/PRODUCTIONPARTLABEL.xss">
+      <publishTime>07/07/2017 17:24:02</publishTime>
+    </File>
+    <File Include="rptsource/SPECIALERACKLABEL.xsc">
+      <publishTime>07/07/2017 17:24:02</publishTime>
+    </File>
+    <File Include="rptsource/SPECIALERACKLABEL.xss">
+      <publishTime>07/07/2017 17:24:02</publishTime>
+    </File>
+    <File Include="services/common.asmx">
+      <publishTime>07/07/2017 20:31:36</publishTime>
+    </File>
+    <File Include="services/edihandler.asmx">
+      <publishTime>07/07/2017 17:57:54</publishTime>
+    </File>
+    <File Include="services/PrintLabels.asmx">
+      <publishTime>07/07/2017 17:54:56</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/11/2017 00:14:08</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
