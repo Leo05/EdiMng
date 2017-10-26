@@ -1,0 +1,6 @@
+c:\users\lgonzalez\documents\visual studio 2013\Projects\EDIX12Parser\EDIX12Parser\bin\Debug\EDIX12Parser.exe.config
+c:\users\lgonzalez\documents\visual studio 2013\Projects\EDIX12Parser\EDIX12Parser\bin\Debug\EDIX12Parser.exe
+c:\users\lgonzalez\documents\visual studio 2013\Projects\EDIX12Parser\EDIX12Parser\bin\Debug\EDIX12Parser.pdb
+c:\users\lgonzalez\documents\visual studio 2013\Projects\EDIX12Parser\EDIX12Parser\obj\Debug\EDIX12Parser.csprojResolveAssemblyReference.cache
+c:\users\lgonzalez\documents\visual studio 2013\Projects\EDIX12Parser\EDIX12Parser\obj\Debug\EDIX12Parser.exe
+c:\users\lgonzalez\documents\visual studio 2013\Projects\EDIX12Parser\EDIX12Parser\obj\Debug\EDIX12Parser.pdb
